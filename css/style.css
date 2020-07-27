@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+a:visited, a:active, a:hover, a {
+  color: #000; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #4d4e53;
+  width: 100%;
+  padding: 0px 10px 0px 0px;
+  line-height: 20px; }
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000; }
+
+.aside {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 240px;
+  width: 250px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4); }
+  .aside__title {
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px; }
+  .aside .div {
+    display: block;
+    height: 35px;
+    border-bottom: #4d4e53 1px solid;
+    padding: 10px 10px; }
+  .aside a {
+    letter-spacing: 0.1px; }
+  .aside__title {
+    color: #000;
+    border-bottom: #4d4e53 1px solid;
+    padding: 0px 0px 0px 18px; }
+
+.main {
+  margin: 0px 0px 0px 260px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 20px 15px; }
+
+li {
+  margin: 15px 0px 15px 50px; }
+
+p,
+code {
+  margin: 18px 10px; }
+
+code {
+  display: block;
+  padding: 20px 10px;
+  background-color: #f7f7f7;
+  font-size: 11px;
+  font-family: monospace;
+  line-height: 15px; }
+
+.preference__link {
+  color: blue !important; }
+
+@media only screen and (max-width: 800px) {
+  .aside {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid; }
+    .aside__title {
+      text-align: center; }
+  .main {
+    position: relative;
+    margin: 0;
+    margin-top: 280px;
+    padding: 0; } }
