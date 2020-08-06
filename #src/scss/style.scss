@@ -4,10 +4,12 @@
 
 
 // <mixins>
-
+@import 'mixins.scss';
 // </mixins>
 
-
+$md1: 991.98;
+$md2: 767.98;
+$md3: 479.98;
 // <import files>
 @import 'nullstyle.scss';
 // </import files>
@@ -92,7 +94,9 @@ code {
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {}
+
+@media (max-width:$md2+px) {
 	.aside {
 		background-color: white;
 		position: absolute;
@@ -116,5 +120,10 @@ code {
 		margin: 0;
 		margin-top: 280px;
 		padding: 0;
+	}
+
+	h2 {
+		font-size: 22px;
+		margin: 0px 0px 0px 20px;
 	}
 }

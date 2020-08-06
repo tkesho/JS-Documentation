@@ -119,7 +119,7 @@ code {
 .preference__link {
   color: blue !important; }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 767.98px) {
   .aside {
     background-color: white;
     position: absolute;
@@ -138,4 +138,7 @@ code {
     position: relative;
     margin: 0;
     margin-top: 280px;
-    padding: 0; } }
+    padding: 0; }
+  h2 {
+    font-size: 22px;
+    margin: 0px 0px 0px 20px; } }
